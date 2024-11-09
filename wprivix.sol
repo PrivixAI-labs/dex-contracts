@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-contract WETH9 is ReentrancyGuard {
+contract WPSC is ReentrancyGuard {
     string public name = "Wrapped Privix";
     string public symbol = "WPSC";
     uint8 public decimals = 18;
